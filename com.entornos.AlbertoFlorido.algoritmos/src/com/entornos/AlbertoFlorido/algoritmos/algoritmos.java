@@ -17,7 +17,7 @@ public abstract class algoritmos {
 		int n0 = 0, n1 = 1;
 		long res = 0;
 
-		for (int i = 0; i < 0; i++) {
+		for (int i = 0; i < n; i++) {
 			if (i % 2 == 0) {
 				n0 += n1;
 				res = n0;
@@ -56,6 +56,6 @@ public abstract class algoritmos {
 				return false;
 			}
 		}
-		return true;
+		return n>2;
 	}
 }

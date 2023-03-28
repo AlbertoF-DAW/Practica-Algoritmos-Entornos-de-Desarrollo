@@ -11,7 +11,7 @@ public class Principal {
 		// Array numeros
 		int[] numeros = new int[5];
 		for (int i = 0; i < numeros.length; i++)
-			numeros[i] = (int) (Math.random() * 100 + 1);
+			numeros[i] = (int) (Math.random() * 20 + 1);
 
 		// Prueba fibonacci
 		long[] resultadoFibonacci = new long[numeros.length];
