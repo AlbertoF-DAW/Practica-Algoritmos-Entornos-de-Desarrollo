@@ -12,16 +12,32 @@ public abstract class Arrays {
 		return java.util.Arrays.stream(array).average().getAsDouble();
 	}
 
+	/**
+	 * Funcion para calcular la mediana de un array de numeros enteros
+	 * @param array
+	 * @return valor double que es la mediana del array
+	 */
 	public static double mediana(int[] array) {
-
-		return 0;
+		java.util.Arrays.sort(array);
+		return array.length % 2 == 1 ? array[array.length / 2]
+				: ((double) array[array.length / 2 - 1] + array[array.length / 2]) / 2;
 	}
 
+	/**
+	 * Funcion para calcular el maximo de un array de numeros enteros
+	 * @param array
+	 * @return valor entero que es el maximo del array
+	 */
 	public static int maximo(int[] array) {
-		return 0;
+		return java.util.Arrays.stream(array).max().getAsInt();
 	}
 
+	/**
+	 * Funcion para calcular el minimo de un array de numeros enteros
+	 * @param array
+	 * @return valor entero que es el minimo del array
+	 */
 	public static int minimo(int[] array) {
-		return 0;
+		return java.util.Arrays.stream(array).min().getAsInt();
 	}
 }
