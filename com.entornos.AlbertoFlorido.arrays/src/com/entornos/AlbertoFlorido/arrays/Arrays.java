@@ -3,9 +3,8 @@ package com.entornos.AlbertoFlorido.arrays;
 public abstract class Arrays {
 
 	/**
-	 * Funcion para calcular la media aritmetica de un array de numeros enteros
-	 * 
-	 * @param array
+	 * Calcular la media aritmetica de un array de numeros enteros
+	 * @param array de numeros enteros
 	 * @return valor double que es la media aritmetica del array
 	 */
 	public static double media(int[] array) {
@@ -13,8 +12,8 @@ public abstract class Arrays {
 	}
 
 	/**
-	 * Funcion para calcular la mediana de un array de numeros enteros
-	 * @param array
+	 * Calcular la mediana de un array de numeros enteros
+	 * @param array de numeros enteros
 	 * @return valor double que es la mediana del array
 	 */
 	public static double mediana(int[] array) {
@@ -24,8 +23,8 @@ public abstract class Arrays {
 	}
 
 	/**
-	 * Funcion para calcular el maximo de un array de numeros enteros
-	 * @param array
+	 * Calcular el maximo de un array de numeros enteros
+	 * @param array de numeros enteros
 	 * @return valor entero que es el maximo del array
 	 */
 	public static int maximo(int[] array) {
@@ -33,8 +32,8 @@ public abstract class Arrays {
 	}
 
 	/**
-	 * Funcion para calcular el minimo de un array de numeros enteros
-	 * @param array
+	 * Calcular el minimo de un array de numeros enteros
+	 * @param array de numeros enteros
 	 * @return valor entero que es el minimo del array
 	 */
 	public static int minimo(int[] array) {
